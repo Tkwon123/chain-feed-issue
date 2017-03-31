@@ -1,0 +1,26 @@
+{
+  "name": "chain-feed-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christopher-gibson/chain-feed-issue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christopher-gibson/chain-feed-issue/issues"
+  },
+  "homepage": "https://github.com/christopher-gibson/chain-feed-issue#readme",
+  "dependencies": {
+    "chain-sdk": "^1.1.0",
+    "dotenv": "^4.0.0"
+  }
+}
