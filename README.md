@@ -59,7 +59,7 @@ Once the 75 transactions have been created and acked, restart the chain.
 ```
 docker restart chain-issue
 ```
-The listener should still be alive, but if for any reason it dies, you can restart the chain (which will start from transaction #1, but the chain dashboard can be found on localhost:2999).
+The listener should still be alive, but if for any reason it dies, you can restart the chain (which will start from transaction #1 (as opposed to the current transaction feed count), but see the next step as the dashboard can be found on localhost:2999).
 
 ```
 node listener.js
